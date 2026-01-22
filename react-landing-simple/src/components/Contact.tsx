@@ -1,15 +1,20 @@
 import type { JSX } from "react";
+import { useTranslation } from "react-i18next";
+import "../styles/Contact.css";
 
 export default function Contact(): JSX.Element {
+  const { t } = useTranslation();
+
   return (
     <section className="section">
-      <h2>Get in Touch</h2>
-      <p>
-        Have questions or want to book a class?{" "}
-        <a href="mailto:youremail@example.com">
-          Send me an email
-        </a>
-      </p>
+      <h2>{t("contact_title")}</h2>
+      <p>{t("contact_description")}</p>
+      <a
+        href="mailto:contact@robertovallado.dev"
+        className="contact-button"
+      >
+        {t("contact_button")}
+      </a>
     </section>
   );
 }
