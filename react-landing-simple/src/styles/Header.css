@@ -1,0 +1,156 @@
+/* ==================== Header Base ==================== */
+.app-header {
+  width: 100%;
+  background-color: #31694E; /* dark header */
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;   /* bold */
+  font-size: 1.8rem;
+  cursor: pointer;
+  font-style: italic;
+}
+
+/* ==================== Nav ==================== */
+.header-nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.header-nav a:hover {
+  color: #ffffff;
+}
+
+/* ==================== Language Switcher ==================== */
+.header-language select {
+  background-color: #5b9f12;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header-language select:hover {
+  background-color: #5c8531;
+}
+
+/* ==================== Hamburger ==================== */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.hamburger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #e5e7eb;
+  border-radius: 1px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+/* Open animation */
+.hamburger.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* ==================== Mobile Responsive ==================== */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .header-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    max-width: 80%;
+    background-color: #0f172a;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .header-right.active {
+    transform: translateX(0);
+  }
+
+  .header-nav {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .header-nav a {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .header-language {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* or center if you prefer */
+  }
+
+  .header-language select {
+    width: 100%;
+  }
+}
+
+/* Desktop: align language right */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-language {
+  margin-left: auto; /* pushes it all the way right */
+}

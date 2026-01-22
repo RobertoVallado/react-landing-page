@@ -1,0 +1,52 @@
+.home-page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero-section {
+  padding: 4rem 2rem;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* //MAINTENANCE TEMPROARY SECTION */
+.maintenance-section {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.maintenance-card {
+  background: linear-gradient(135deg, #f06f52, #f79c6b);
+  color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+}
+
+.maintenance-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.maintenance-card p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}

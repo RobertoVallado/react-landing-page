@@ -1,14 +1,13 @@
 import type { JSX } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function About(): JSX.Element {
+  const { t } = useTranslation();
+
   return (
     <section className="section">
-      <h2>About</h2>
-      <p>
-        I offer one-on-one Spanish lessons focused on real communication,
-        cultural understanding, and practical usage. Whether you are a
-        beginner or improving fluency, lessons are adapted to your goals.
-      </p>
+      <h2>{t("about_title")}</h2>
+      <p>{t("about_description")}</p>
     </section>
   );
 }

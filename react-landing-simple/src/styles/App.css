@@ -1,7 +1,22 @@
 #root {
+  min-height: 100vh;
+  display: flex;
+  background-color: #f6f6f6;
+}
+
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.app-content {
+  flex: 1;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  width: 100%;
   text-align: center;
 }
 
@@ -35,8 +50,4 @@
 
 .card {
   padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
