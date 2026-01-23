@@ -3,8 +3,6 @@
   "header_pricing": "Pricing",
   "header_contact": "Contact",
   "header_about": "About",
-
-  "about_title": "About",
   "about_description": "I offer one-on-one Spanish lessons focused on real communication, cultural understanding, and practical usage. Whether you are a beginner or improving fluency, lessons are adapted to your goals.",
 
   "contact_title": "Get in touch!",
@@ -15,6 +13,21 @@
   "hero_subtitle": "Personalized lessons, cultural insights, and practical communication skills to help you speak with confidence.",
 
   "maintenance_title": "Site Under Maintenance 🚧",
-  "maintenance_description": "We are updating our site to serve you better! Check back soon for new features and improvements."
+  "maintenance_description": "We are updating our site to serve you better! Check back soon for new features and improvements.",
+
+
+  "nameRequired": "Name is required",
+  "emailRequired": "Email is required",
+  "emailInvalid": "Please enter a valid email address",
+  "messageRequired": "Message is required",
+  "nameLabel": "Name",
+  "namePlaceholder": "Your name",
+  "emailLabel": "Email Address",
+  "emailPlaceholder": "Your email",
+  "messageLabel": "Message",
+  "messagePlaceholder": "Your message",
+  "submit": "Submit",
+  "sending": "Sending...",
+  "success": "Thanks for your message!"
 
 }

@@ -1,0 +1,56 @@
+.contact-form {
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+}
+
+.form-error {
+  color: #d9534f;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.form-submit-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #34a432;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-submit-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.form-submit-button:hover:not(:disabled) {
+  background-color: #267725;
+}
