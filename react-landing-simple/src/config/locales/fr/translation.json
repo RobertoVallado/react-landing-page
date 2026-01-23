@@ -16,6 +16,21 @@
   "hero_subtitle": "Des cours personnalisés, des aperçus culturels et des compétences de communication pratiques pour vous aider à parler avec confiance.",
 
   "maintenance_title": "Site en Maintenance 🚧",
-  "maintenance_description": "Nous mettons à jour notre site pour mieux vous servir ! Revenez bientôt pour découvrir de nouvelles fonctionnalités et améliorations."
+  "maintenance_description": "Nous mettons à jour notre site pour mieux vous servir ! Revenez bientôt pour découvrir de nouvelles fonctionnalités et améliorations.",
 
+
+  "nameRequired": "Le nom est requis",
+  "emailRequired": "Le courriel est requis",
+  "emailInvalid": "Veuillez entrer un courriel valide",
+  "messageRequired": "Le message est requis",
+
+  "nameLabel": "Nom",
+  "namePlaceholder": "Votre nom",
+  "emailLabel": "Adresse courriel",
+  "emailPlaceholder": "Votre courriel",
+  "messageLabel": "Message",
+  "messagePlaceholder": "Votre message",
+  "submit": "Envoyer",
+  "sending": "Envoi en cours...",
+  "success": "Merci pour votre message!"
 }

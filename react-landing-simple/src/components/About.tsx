@@ -6,7 +6,7 @@ export default function About(): JSX.Element {
 
   return (
     <section className="section">
-      <h2>{t("about_title")}</h2>
+      <h2>{t("header_about")}</h2>
       <p>{t("about_description")}</p>
     </section>
   );
