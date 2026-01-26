@@ -15,7 +15,6 @@
   "maintenance_title": "Site Under Maintenance 🚧",
   "maintenance_description": "We are updating our site to serve you better! Check back soon for new features and improvements.",
 
-
   "nameRequired": "Name is required",
   "emailRequired": "Email is required",
   "emailInvalid": "Please enter a valid email address",
@@ -28,6 +27,24 @@
   "messagePlaceholder": "Your message",
   "submit": "Submit",
   "sending": "Sending...",
-  "success": "Thanks for your message!"
+  "success": "Thanks for your message!",
+
+  "meetInstructor": "Meet your instructor",
+  "greeting": "Hola! Me llamo Roberto,",
+  "intro": "I'm a lifelong learner committed to clear goals in both personal and professional life.",
+  "developerLife": "As a software developer, I solve complex problems by day and help learners reach their goals by night.",
+  "languages": "I speak French, Portuguese, and English fluently, with Spanish as my native tongue.",
+  "tutoringExperience": "I've tutored one-on-one since college, helping students grasp programming concepts.",
+  "mentoringJob": "My current job also involves mentoring junior developers, which gives me a deep sense of purpose.",
+  "mentorshipBelief": "I believe a tutor's goal is to see others improve and thrive.",
+
+  "nativeKnowledgeTitle": "Native Knowledge",
+  "nativeKnowledgeDesc": "A native speaker can help you master pronunciation and accent.",
+  "culturalInsightTitle": "Cultural Insight",
+  "culturalInsightDesc": "Native speakers can provide practical tips for real-life language use.",
+  "conversationalMethodTitle": "Conversational Method",
+  "conversationalMethodDesc": "Conversing with a native speaker enhances your language skills and fluency.",
+  "enhancedTravelTitle": "Enhanced travel experience",
+  "enhancedTravelDesc": "Speaking the local language can help you navigate the country more easily, as you will be able to read signs, ask for directions, and negotiate prices with ease. This will make your travels more enjoyable and less stressful."
 
 }

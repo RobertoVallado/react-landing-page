@@ -18,7 +18,6 @@
   "maintenance_title": "Site en Maintenance 🚧",
   "maintenance_description": "Nous mettons à jour notre site pour mieux vous servir ! Revenez bientôt pour découvrir de nouvelles fonctionnalités et améliorations.",
 
-
   "nameRequired": "Le nom est requis",
   "emailRequired": "Le courriel est requis",
   "emailInvalid": "Veuillez entrer un courriel valide",
@@ -32,5 +31,24 @@
   "messagePlaceholder": "Votre message",
   "submit": "Envoyer",
   "sending": "Envoi en cours...",
-  "success": "Merci pour votre message!"
+  "success": "Merci pour votre message!",
+
+  "meetInstructor": "Rencontrez votre instructeur",
+  "greeting": "¡Hola! Je m'appelle Roberto,",
+  "intro": "Je suis un apprenant passionné, engagé à fixer des objectifs clairs dans ma vie personnelle et professionnelle.",
+  "developerLife": "En tant que développeur logiciel, je résous des problèmes complexes le jour et j'aide les apprenants à atteindre leurs objectifs le soir.",
+  "languages": "Je parle couramment le français, le portugais et l'anglais, l'espagnol étant ma langue maternelle.",
+  "tutoringExperience": "Je fais du tutorat individuel depuis l'université, aidant les étudiants à comprendre les concepts de programmation.",
+  "mentoringJob": "Mon travail actuel implique également de guider des développeurs juniors, ce qui me procure un profond sentiment d'accomplissement.",
+  "mentorshipBelief": "Je crois que le but d'un tuteur est de voir les autres progresser et s'épanouir.",
+
+  "nativeKnowledgeTitle": "Connaissance native",
+  "nativeKnowledgeDesc": "Un locuteur natif peut vous aider à maîtriser la prononciation et l'accent.",
+  "culturalInsightTitle": "Aperçu culturel",
+  "culturalInsightDesc": "Les locuteurs natifs peuvent fournir des conseils pratiques pour l'utilisation réelle de la langue.",
+  "conversationalMethodTitle": "Méthode conversationnelle",
+  "conversationalMethodDesc": "Converser avec un locuteur natif améliore vos compétences linguistiques et votre fluidité.",
+  "enhancedTravelTitle": "Expérience de voyage améliorée",
+  "enhancedTravelDesc": "Parler la langue locale peut vous aider à mieux naviguer dans le pays, car vous pourrez lire les panneaux, demander des directions et négocier les prix facilement. Cela rendra vos voyages plus agréables et moins stressants."
+
 }
